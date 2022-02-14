@@ -1,0 +1,23 @@
+@media screen and (max-width:420px)
+{
+    .row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top:0px;
+        background-color: #f2f2cd;
+        width:100vw;
+    }
+
+    .row h1{
+        width:100%;
+    }
+
+    .left, .right{
+        font-weight: 800;
+        font-size:15px;
+        width:100%;
+    }
+
+
+}
