@@ -3,7 +3,6 @@
     .row{
         display: flex;
         flex-direction: column;
-        justify-content: center;
         margin-top:0px;
         background-color: #f2f2cd;
         width:100vw;
@@ -14,6 +13,9 @@
     }
 
     .left, .right{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         font-weight: 800;
         font-size:15px;
         width:100%;
