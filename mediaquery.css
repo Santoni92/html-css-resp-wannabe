@@ -1,25 +1,44 @@
 @media screen and (max-width:420px)
 {
-    .row{
+    /*LEZIONI DOVE VUOI TU*/
+    .container{
         display: flex;
         flex-direction: column;
-        margin-top:0px;
+        /*margin:0 auto;*/
         background-color: #f2f2cd;
         width:100vw;
+        /*min-height: 100%;*/
     }
 
-    .row h1{
+    .row{
+        margin:0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         width:100%;
     }
 
     .left, .right{
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        /*justify-content: center;*/
+        align-self: center;
         font-weight: 800;
         font-size:15px;
         width:100%;
+        padding:80px;
+    }
+    /*COME FUNZIONA*/
+    #steps{
+        width:100vw;
+        min-height: 100%;
+        background-color: #ffffff;
     }
 
+    .central{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
 
 }
