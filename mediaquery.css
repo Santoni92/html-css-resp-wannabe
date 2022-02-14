@@ -4,10 +4,7 @@
     .container{
         display: flex;
         flex-direction: column;
-        margin:0 auto;
         background-color: #f2f2cd;
-        width:100vw;
-        /*min-height: 100%;*/
     }
 
     .row{
@@ -25,12 +22,14 @@
         align-self: center;
         font-weight: 800;
         font-size:15px;
+    }
+
+    .right img{
         width:100%;
-        padding:80px;
     }
     /*COME FUNZIONA*/
     #steps{
-        width:100vw;
+        justify-content: center;
         background-color: #ffffff;
     }
 
@@ -38,6 +37,17 @@
         display: flex;
         flex-direction: column;
         align-self: center;
+    }
+    /*PERCHE CADEMY*/
+    #why{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        background-color: #f2f2cd;
+    }
+
+    #why img{
+        width: 50%;
     }
 
 }
